@@ -1,0 +1,17 @@
+{
+  "name": "folder-organiser-demo",
+  "version": "1.0.0",
+  "description": "Demo project that uses the folder-organiser npm package to clean up a messy folder",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "sample": "node make-sample.js",
+    "preview": "node index.js sample-folder --preview",
+    "start": "node index.js sample-folder"
+  },
+  "author": "Myst-12",
+  "license": "MIT",
+  "dependencies": {
+    "folder-organiser": "^1.0.0"
+  }
+}
